@@ -115,3 +115,35 @@ img {
     padding-bottom: 30px;
   }
 }
+
+@media screen and (max-width: 720px){
+  body{
+    padding: 20px;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .first, .second{
+    width: 50%;
+    flex-wrap: wrap;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central {
+  float: left;
+  width: 50%;
+  }
+
+  #steps .row>.right{
+    width: 100%;
+    margin: auto;
+  }
+
+  .row{
+    width: 100%;
+  }
+}
