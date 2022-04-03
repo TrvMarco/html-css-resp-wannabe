@@ -144,6 +144,11 @@ img {
   }
 
   .row{
+    margin: 30px 0;
     width: 100%;
+  }
+
+  h3, h1{
+    padding: 20px 0;
   }
 }
